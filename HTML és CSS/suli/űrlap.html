@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Készítette:Mészáros Martin -->
+<html lang="hu-HU">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bevezető űrlap</title>
+		<link rel="stylesheet" href="orbanstyle.css">
+	</head>
+	<body>
+		<h1>Űrlap bevitele</h1>
+		<form>
+			<fieldset>
+				<legend>Bevezető mező</legend>
+				Kit keres? <input type="text" name="nev" size="40" maxlength="50"><br>
+				Azonosító: <input type="text" name="azonosito" size="40" maxlength="50"><br>
+				<p>Állítsa be a keresés körét</p>
+				<input type="radio" name="kereses" value="teljes">Teljes keresésí<br>
+				<input type="radio" name="kereses" value="reszleges">Részleges keresésí<br>
+				<input type="radio" name="kereses" value="pontos">Pontos keresésí<br>
+				<p>Írja be a keresett szót</p>
+				<input type="text" name="nev" size="40" maxlength="50"><br>
+				<p>Állítsa be az országot, ahol keres</p>
+				<select name="orszag">
+				<option value="none" selected>Válasszon országot</option>
+				<option value="magyar">Magyarország</option>
+				<option value="nemet">Németország</option>
+				<option value="angol">Egyesült Királyság</option>
+				</select>
+				<p>Válassza ki, milyen al-opciókat kíván igénybe venni</p>
+				<br>
+				<br>
+				<input type="checkbox" name="opcio" value="a">A választás<br>
+				<input type="checkbox" name="opcio" value="b">B választás<br>
+				<input type="checkbox" name="opcio" value="c">B választás<br>
+				<p>Töltse fel önéletrajzát</p>
+				<input type="file" name="adat">
+				<br>
+				<p>Írja le a panaszát </p>
+				<textarea name="panasz" rows="5" cols="50" placeholder="Írjon ide..."></textarea>
+			</fieldset>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+	background-color: PowderBlue;
+}
+h1{
+	text-align: left;
+	background-color: gold;
+	color: green;
+	font-family: Verdana;
+}
+P{
+	text-align: right;
+	background-color: green;
+	color: red;
+	font-size: 300%;
+}
+#p01{
+	text-align: center;
+	background-color: green;
+	color: red;
+	font-size: 300%;
+	font-family: Verdana;
+}
+a:link{
+	color:yellow;
+	background-color:transparent;
+	text-decoration:none;
+	
+}
+a:visited{
+	color:green;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:hover{
+	color:red;
+	background-color:black;
+	text-decoration:underline;
+}
+a:active{
+	color:blue;
+	background-color:transparent;
+	text-decoration:underline;
+}
+
+

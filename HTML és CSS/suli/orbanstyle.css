@@ -1,0 +1,25 @@
+body{
+	background-color: darkorange;
+}
+table{
+	width: 100%
+}
+table, th, tr, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	/*egy vonal látszódik*/
+}
+th,td{
+	padding: 5px;
+	/*cella széleitől adja meg a távolságot*/
+}
+th{
+	text-align:center;
+}
+img{
+	width: 50%;
+}
+input:{
+	margin: 5px;
+}
+}
