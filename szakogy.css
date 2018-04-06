@@ -1,0 +1,13 @@
+body{
+	background-color:darkgreen;
+}
+h1 {
+    text-align:center;
+}
+fieldset {
+    background-color:chartreuse;
+}
+legend {
+    text-align:center;
+    font-size:30px;
+}
