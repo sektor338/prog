@@ -57,5 +57,33 @@ select{
         width: 120px;
 }
 .evfolyam{
-
+  float: left;
+  width: 175px;
+}
+textarea{
+  background-color: lemonchiffon;
+  border-color: lightsteelblue;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: lightsteelblue;
+}
+input[type="button"]{
+  width: 310px;
+  background-color: lightgreen;
+  border-style: solid;
+  border-color: lightgreen
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px grey;
+}
+input[type="button"]:hover{
+  background-color: springgreen;
+  border-color: springgreen;
+}
+input[type="button"]:active{
+  background-color: springgreen;
+  border-color: springgreen;
 }
