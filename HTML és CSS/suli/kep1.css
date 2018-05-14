@@ -1,0 +1,33 @@
+body{
+	background-image: url("hatter.jpg");
+	background-repeat: no-repeat;
+	/*
+	Lehetőségek
+	-repeat; 
+	-repeat-x;
+	-repeat-y;
+	*/
+	background-attachment: fixed;
+	/*
+	Lehetőségek
+	-scroll; 
+	-fixed;
+	-;
+	*/
+	/*pozíciók*/
+	background-position: left top;
+	/*lehetőségek
+	-left top; center top; right top;
+	-left center; center center; right center;
+	-left bottom; center bottom; right bottom;
+	150px 300px
+	*/
+	background-size: cover;
+	/*
+	Lehetőségek
+	auto
+	100px
+	cover
+	
+	*/
+}
