@@ -1,0 +1,98 @@
+body{
+  background-color: #f5deb4;
+}
+
+.focim{
+    border-radius: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.hatter{
+    width: 400px;
+    height: 300px;
+    background-color: #a9a9a9;
+    border-color: #e9090a;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 6px 10px #d4d4d2;
+}
+
+input[type="text"], [type="password"]{
+    width: 300px;
+    height: 25px;
+    border-style: solid;
+    text-align: left;
+    padding-left: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-color: #f0fc42;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="button"]{
+  width: 300px;
+  padding: 5px;
+  margin: auto;
+  display: block;
+  background-color: #add9e6;
+  border-color: #f0fc42;
+  border-style: solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+input[type="text"], input[type="password"]:focus{
+  border-style: solid;
+  margin-color:black;
+}
+
+
+
+/*
+
+
+
+
+
+input[type="text"]:focus{
+  border-style: solid;
+  margin-color:black;
+}
+
+input[type="password"]{
+  margin: auto;
+  border-color: #f0fc42;
+  border-style: solid;
+}
+
+input[type="password"]:focus{
+  border-style: solid;
+  margin-color:black;
+}
+
+input[type="button"]{
+  display: block;
+  background-color: #add9e6;
+  border-color: #f0fc42;
+  border-style: solid;
+}
+
+input[type="text"], input[type="password"], input[type="button"]{
+    margin: auto;
+    width: 200px;
+    font-size: 20px;
+
+}
+
+input[type="text"]:focus,input[type="password"]:focus,
+select:focus,textarea:focus{
+    border-color: steelblue;
+}
+*/
