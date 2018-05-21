@@ -53,46 +53,7 @@ input[type="text"], input[type="password"]:focus{
   margin-color:black;
 }
 
-
-
-/*
-
-
-
-
-
-input[type="text"]:focus{
-  border-style: solid;
-  margin-color:black;
+select{
+    margin-left: 180px;
+    margin-right: 180px;
 }
-
-input[type="password"]{
-  margin: auto;
-  border-color: #f0fc42;
-  border-style: solid;
-}
-
-input[type="password"]:focus{
-  border-style: solid;
-  margin-color:black;
-}
-
-input[type="button"]{
-  display: block;
-  background-color: #add9e6;
-  border-color: #f0fc42;
-  border-style: solid;
-}
-
-input[type="text"], input[type="password"], input[type="button"]{
-    margin: auto;
-    width: 200px;
-    font-size: 20px;
-
-}
-
-input[type="text"]:focus,input[type="password"]:focus,
-select:focus,textarea:focus{
-    border-color: steelblue;
-}
-*/

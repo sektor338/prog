@@ -13,35 +13,32 @@
     <form>
         <div class="hatter">
             <div>
-                <input type="text" name="nev" placeholder="Név">
+                <input class="nev" type="text" name="nev" placeholder="Név" onclick="name()">
             </div>
             <div>
-                <input type="password" name="password" placeholder="Jelszó">
+                <input class="pass" type="password" name="password" placeholder="Jelszó" onclick="password()">
+            </div>
+            <div class="aged">
+                <form class="agef" action="index.php" method="post">
+                    <select class="ages" name="kor">
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                    </select>
+                </form>
             </div>
             <div>
-                <input type="button" name="kuldes" value="Belépés">
+                <input type="button" name="kuldes" value="Belépés" onclick="enter()">
             </div>
         </div>
     </form>
   </body>
 </html>
-
-
-<!--
-        <form>
-            <div class="hatter">
-                <div>
-                    <input type="text" name="vezeteknev" placeholder="Az Ön neve...">
-                </div>
-                <div>
-                    <input type="password" name="password" placeholder="Az Ön jelszava...">
-                </div>
-                <div>
-                    <input type="button" name="kuldes" value="Belépés" onclick="alert('kössz')">
-                </div>
-            </div>
-        </form>
-	</body>
-</html>
-
--->
