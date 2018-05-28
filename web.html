@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="web.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Sanchez">
+        <script type="text/javascript" src="web.js">
+        </script>
+        <title>Chat</title>
+    </head>
+    <body onload="tolt()">
+        <form>
+            <div class="foablak">
+                <div class="fejlec_keret">
+                    <p>CLASS-CHAT v1.0</p>
+                </div>
+                <div class="nev_keret">
+                    <p class="nick_nev">Név</p>
+                    <input type="text" class="nev_mezo" name="neve" placeholder="Írja be a nevét!">
+                </div>
+                <div class="datum_keret">
+                    <input type="button" class="torles" value="Törlés" onclick="reset()">
+                    <p class="pontosido"></p>
+
+                </div>
+                <div class="chat_keret">
+                    <textarea class="cseveges_mezo" readonly></textarea>
+                </div>
+                <div class="beviteli_keret">
+                    <textarea class="uzenet_mezo" placeholder="Írja be az üzenetet"></textarea>
+                </div>
+                <div class="bekuldes_keret">
+                    <input type="button" class="bekuld" value="Küld" onclick="bekuldes()">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
