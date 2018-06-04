@@ -1,0 +1,69 @@
+body{
+    background-color: #FFEBCD;
+}
+.nagykeret{
+    margin: auto;
+    border-style: solid;
+    width: 600px;
+    height: 310px;
+    border-color: deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    box-shadow: 5px 10px grey;
+}
+.fejlec{
+    display: flex;
+    border-style: solid;
+    margin: 10px;
+    width: 575px;
+    height: 70px;
+    font-family: Sanchez;
+    background-color: #000080;
+    border-color: #000080;
+    align-items: center;
+    justify-content: center;
+    font-size: 17pt;
+    border-radius: 5px;
+    color: white;
+}
+.bevitelek{
+    margin: auto;
+    border-style: solid;
+    margin-top: 30px;
+    width: 325px;
+    height: 165px;
+    background-color: #4169E1;
+    border-color: #4169E1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+input[type="text"]{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border-style: solid;
+    background-color: #FFDAB9;
+    border-color: #FFDAB9;
+    border-radius: 5px;
+}
+input[type="text"]:hover{
+    border-color: #000080;
+}
+
+input[type="button"]{
+    margin: 10px;
+    width: 305px;
+    height: 30px;
+    border-style: solid;
+    background-color: #66CDAA;
+    border-color: #66CDAA;
+    border-radius: 5px;
+}
+input[type="button"]:hover{
+    background-color: #00FA9A;
+    border-color: #00FA9A;
+}
+input[type="button"]:active{
+    transform: translateY(2px);
+}
