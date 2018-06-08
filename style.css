@@ -1,0 +1,74 @@
+body{
+      padding: 0;
+      margin: 0;
+      background-color: black;
+}
+#out{
+      width: 100%;
+      height: 100vh;
+      margin: auto;
+      position: relative;
+}
+#elso, #masodik, #harmadik{
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: opacity  1;
+      opacity: 0;
+      background-size: cover;
+      background-position: center;
+}
+#elso{
+      background-image: url('hegy1.jpeg');
+      z-index: 0;
+      opacity: 1;
+}
+#masodik{
+      background-image: url('hegy2.jpeg');
+      z-index: 0;
+}
+#harmadik{
+      background-image: url('hegy3.jpeg');
+      z-index: 0;
+}
+#bottom{
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+}
+#valt{
+      width: 90px;
+      height: 50px;
+      margin: auto;
+      text-align: center;
+}
+#egy, #ketto, #harom{
+      width: 15px;
+      height: 15px;
+      background-color: white;
+      float: left;
+      border-radius: 15px;
+      margin-top: 15px;
+      transition: 0.5s;
+      cursor: pointer;
+}
+#egy{
+      margin-left: 13px;
+      margin-right: 10px;
+}
+#ketto{
+      margin-right: 10px;
+}
+#fekete{
+      width: 100%;
+      height: 60px;
+      background-color: black;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      opacity: 0.6;
+}
